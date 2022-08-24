@@ -1,16 +1,326 @@
 {
-  "posts":[
+  "users": [
     {
-      "id" : 0,
-      "title": "First post!",
-      "content" : "My first content!"
+      "id": 1,
+      "fullName": "Dion Stoade",
+      "email": "dstoade0@cornell.edu",
+      "isStaff": false
+    },
+    {
+      "id": 2,
+      "fullName": "Windy Thorneloe",
+      "email": "wthorneloe1@usa.gov",
+      "isStaff": false
+    },
+    {
+      "id": 3,
+      "fullName": "Hillie Phillpotts",
+      "email": "hphillpotts2@rakuten.co.jp",
+      "isStaff": false
+    },
+    {
+      "id": 4,
+      "fullName": "Helenelizabeth Passfield",
+      "email": "hpassfield7@netvibes.com",
+      "isStaff": true
+    },
+    {
+      "id": 5,
+      "fullName": "Franchot Slator",
+      "email": "fslator8@51.la",
+      "isStaff": true
+    },
+    {
+      "id": 6,
+      "fullName": "Renaud Erbe",
+      "email": "rerbe9@psu.edu",
+      "isStaff": true
+    },
+    {
+      "email": "jeremy@bakker.com",
+      "fullName": "Jeremy Bakker",
+      "isStaff": true,
+      "id": 7
     }
   ],
-  "comments" : [
+  "albums": [
     {
-      "id": 0,
-      "content": "Wow such content!",
-      "username": "zero_cool"
+      "userId": 4,
+      "collectionAlbum": true,
+      "artistName": "Vulfpeck",
+      "albumName": "Mr. Finish Line",
+      "yearReleased": "2018",
+      "albumArt": "https://i.discogs.com/CZN4pZgVEfa-4z-w-MiSotRY-NC9uHDppDa85afAS5k/rs:fit/g:sm/q:90/h:585/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExNDkz/Mzc1LTE1MTc1NTcx/OTctODc4OC5qcGVn.jpeg",
+      "genreId": 2,
+      "id": 27
+    },
+    {
+      "userId": 4,
+      "collectionAlbum": true,
+      "artistName": "Indigo Girls",
+      "albumName": "Strange Fire",
+      "yearReleased": "1987",
+      "albumArt": "https://i.discogs.com/5I103otozSZOPy2zvY3HvbV_MskVh2sJGo-v7pwDrEM/rs:fit/g:sm/q:90/h:597/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE5OTEx/MzEtMTU2MTQxNTcz/My02NDc2LmpwZWc.jpeg",
+      "genreId": 2,
+      "id": 28
+    },
+    {
+      "userId": 4,
+      "collectionAlbum": true,
+      "artistName": "FKA Twigs",
+      "albumName": "EP2",
+      "yearReleased": "2013",
+      "albumArt": "https://i.discogs.com/wxLtad_G8e16QZcS-tsc18VckP-G2RALUieTMbqPnfk/rs:fit/g:sm/q:90/h:500/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ4ODk4/MzMtMTQwMzM1Mjkz/My0xMjIzLmpwZWc.jpeg",
+      "genreId": 4,
+      "id": 29
+    },
+    {
+      "userId": 4,
+      "collectionAlbum": true,
+      "artistName": "The Mountain Goats",
+      "albumName": " We Shall All Be Healed",
+      "yearReleased": "2004",
+      "albumArt": "https://i.discogs.com/MnGHxFCRE7jvfYpxHLwRC4_GCFnzsXvJ-iuo38CKTw4/rs:fit/g:sm/q:90/h:538/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUxNTYy/Ny0xMTI2Mzk3MTE4/LmpwZWc.jpeg",
+      "genreId": null,
+      "id": 31
+    },
+    {
+      "userId": 4,
+      "collectionAlbum": true,
+      "artistName": "Led Zeppelin",
+      "albumName": " Walk Don't Run (L.A. 2 Days)",
+      "yearReleased": "1993",
+      "albumArt": "https://i.discogs.com/TadoRhJS5isl_FgirjVqQBJO4ysJZWASIy2SwoNq_BI/rs:fit/g:sm/q:90/h:486/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU3OTI3/MDEtMTQwMjgxNDUy/MS0zNzIwLmpwZWc.jpeg",
+      "genreId": 2,
+      "id": 32
+    },
+    {
+      "userId": 4,
+      "collectionAlbum": true,
+      "artistName": "Michael W. Smith",
+      "albumName": " Change Your World",
+      "yearReleased": "1992",
+      "albumArt": "https://i.discogs.com/njoYq-Oth3rplJFP5yS-t1xI1HD2emMJq6xFGPtYKG8/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTY0ODE3/NzctMTQ0MDc0NzMx/NS03OTIxLmpwZWc.jpeg",
+      "genreId": 2,
+      "id": 33
+    },
+    {
+      "userId": 4,
+      "collectionAlbum": false,
+      "artistName": "Kate Bush",
+      "albumName": " Hounds Of Love",
+      "yearReleased": "1985",
+      "albumArt": "https://i.discogs.com/DUcflD1Qg5ukeRgW1jwOkZ4HkB59Cc6qEl2uBh81gxY/rs:fit/g:sm/q:90/h:597/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE5NzE2/My0xNDc1NTkwOTMy/LTY0MTEuanBlZw.jpeg",
+      "genreId": 7,
+      "id": 35
+    },
+    {
+      "userId": 4,
+      "collectionAlbum": false,
+      "artistName": "The Mountain Goats",
+      "albumName": " Dark In Here",
+      "yearReleased": "2021",
+      "albumArt": "https://i.discogs.com/xrInZAKVUAGInHn5TO1yy-FGobueQ2zP6g6neiV6BYU/rs:fit/g:sm/q:90/h:585/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE5MDU2/NDA2LTE2NDgxNTgx/MzMtOTQxMS5qcGVn.jpeg",
+      "genreId": 2,
+      "id": 36
+    },
+    {
+      "userId": 4,
+      "collectionAlbum": false,
+      "artistName": "Kate Bush",
+      "albumName": " The Kick Inside 2: Electric Bugaloo",
+      "yearReleased": "1978",
+      "albumArt": "https://i.discogs.com/XZvjzv1I0S-rfdcoeKE6LIXxOI8-wEzff0fRGweFrr0/rs:fit/g:sm/q:90/h:598/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQxNDM3/NC0xNDExNDA3MjA5/LTc1ODcuanBlZw.jpeg",
+      "genreId": 2,
+      "id": 37
+    },
+    {
+      "userId": 4,
+      "collectionAlbum": false,
+      "artistName": "Meshuggah",
+      "albumName": " 25 Years Of Musical Deviance",
+      "yearReleased": "2016",
+      "albumArt": "https://i.discogs.com/eiNf0KpApazBYU1YWvLz92RX1vN9GOy6e_M3RffYZqw/rs:fit/g:sm/q:90/h:586/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTg4MDg3/NTAtMTQ2OTMxODI2/NC01NzE4LmpwZWc.jpeg",
+      "genreId": null,
+      "id": 38
+    },
+    {
+      "userId": 4,
+      "collectionAlbum": false,
+      "artistName": "...And You Will Know Us By The Trail Of Dead",
+      "albumName": " Source Tags & Codes",
+      "yearReleased": "2002",
+      "albumArt": "https://i.discogs.com/qpM0Uimo9nGdV2asXIZaw4upYdgYdxuvZ6LSX0vgtps/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ4MDk5/NS0xMzgxMDYxODk3/LTc1NjAuanBlZw.jpeg",
+      "genreId": null,
+      "id": 39
+    },
+    {
+      "userId": 4,
+      "collectionAlbum": false,
+      "artistName": "David Bowie",
+      "albumName": " Labyrinth (From The Original Soundtrack Of The Jim Henson Film)",
+      "yearReleased": "1986",
+      "albumArt": "https://i.discogs.com/f1s0TgfY1ZA0bhmlva0nqhjWa-vlzm7-amxBNQ5jWJ8/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ1NDc1/My0xMzYxNDUwOTMx/LTEzNTIuanBlZw.jpeg",
+      "genreId": 7,
+      "id": 40
+    },
+    {
+      "userId": 4,
+      "collectionAlbum": false,
+      "artistName": "Hot Chip",
+      "albumName": " Don't Deny Your Heart",
+      "yearReleased": "2012",
+      "albumArt": "https://i.discogs.com/1r0eK8Es4SW5UQJnX4f8IVvRbyov4XM6ljeiJKtFPws/rs:fit/g:sm/q:90/h:568/w:567/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQwNTE1/NzYtMTM1Mzg3OTY4/NS0zNTIxLmpwZWc.jpeg",
+      "genreId": 6,
+      "id": 41
+    },
+    {
+      "userId": 4,
+      "collectionAlbum": true,
+      "artistName": "P.O.S.",
+      "albumName": " We Don't Even Live Here",
+      "yearReleased": "2012",
+      "albumArt": "https://i.discogs.com/E8Y5Fl1jy8t0UaORoWZinGJGVEAJCNKf8DQI6-ZgPaw/rs:fit/g:sm/q:90/h:304/w:304/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM5NzYy/MzktMTM1MTEyNjc1/Ny01ODgzLmpwZWc.jpeg",
+      "genreId": 5,
+      "id": 42
+    },
+    {
+      "userId": 4,
+      "collectionAlbum": true,
+      "artistName": "Mikky Ekko",
+      "albumName": " Pull Me Down",
+      "yearReleased": "2013",
+      "albumArt": "https://i.discogs.com/fUsILnYJ0fzf_O7dhNLdwLK3aELPmVouPOxVRZH_nh8/rs:fit/g:sm/q:90/h:416/w:422/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ1Mzcw/NDYtMTM2NzcwMDU4/My00OTI0LmpwZWc.jpeg",
+      "genreId": null,
+      "id": 43
+    },
+    {
+      "userId": 4,
+      "collectionAlbum": true,
+      "artistName": "mewithoutYou",
+      "albumName": " Catch For Us The Foxes",
+      "yearReleased": "2004",
+      "albumArt": "https://i.discogs.com/ssP2gVgN-GIth4uNlq-iJr1DmO-WNW2QNFpD5oDE3ik/rs:fit/g:sm/q:90/h:500/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ2NjM0/My0xMTE3NjYxODY0/LmpwZw.jpeg",
+      "genreId": 2,
+      "id": 44
+    },
+    {
+      "userId": 4,
+      "collectionAlbum": true,
+      "artistName": "Arcade Fire",
+      "albumName": " Neon Bible",
+      "yearReleased": "2007",
+      "albumArt": "https://i.discogs.com/kwjQc5JROLFi5I4BTPSUjqgusudcRig_HAfoFgjcDmc/rs:fit/g:sm/q:90/h:523/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQxMjgz/MzMtMTM1NjU4NjQ1/MC0yNDk3LmpwZWc.jpeg",
+      "genreId": 2,
+      "id": 45
+    },
+    {
+      "userId": 4,
+      "collectionAlbum": true,
+      "artistName": "Wu-Tang Clan",
+      "albumName": "Tang Clan ",
+      "yearReleased": "1993",
+      "albumArt": "https://i.discogs.com/JVtYto3PpCrhttx7V3aR09GKcOlPw4SE8RYrdxaWPTk/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE1Mzc0/OS0xMTg1MTM0MTM1/LmpwZWc.jpeg",
+      "genreId": 5,
+      "id": 46
+    },
+    {
+      "userId": 4,
+      "collectionAlbum": true,
+      "artistName": "Aesop Rock",
+      "albumName": " None Shall Pass",
+      "yearReleased": "2007",
+      "albumArt": "https://i.discogs.com/DznGdcjw5Ex2Nyshq_Lej4jQJxK8lkHw5pNiK56KhXg/rs:fit/g:sm/q:90/h:445/w:450/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwNTU1/NzEtMTE4ODU3NjU0/NS5qcGVn.jpeg",
+      "genreId": 5,
+      "id": 47
+    },
+    {
+      "userId": 4,
+      "collectionAlbum": true,
+      "artistName": "Kate Bush",
+      "albumName": " Hounds Of Love",
+      "yearReleased": "1985",
+      "albumArt": "https://i.discogs.com/DUcflD1Qg5ukeRgW1jwOkZ4HkB59Cc6qEl2uBh81gxY/rs:fit/g:sm/q:90/h:597/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE5NzE2/My0xNDc1NTkwOTMy/LTY0MTEuanBlZw.jpeg",
+      "genreId": 2,
+      "id": 48
+    },
+    {
+      "userId": 4,
+      "collectionAlbum": false,
+      "artistName": "The Mountain Goats",
+      "albumName": " Nothing For Juice",
+      "yearReleased": "1996",
+      "albumArt": "https://i.discogs.com/KWz-DMdbSIr70h0lf469JAYwwCd2P-HzfZlo0SrE_qE/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc0NDgx/MC0xMzQ4NDI5NjUw/LTQ1NDcuanBlZw.jpeg",
+      "genreId": 2,
+      "id": 49
+    },
+    {
+      "userId": 4,
+      "collectionAlbum": true,
+      "artistName": "Arcade Fire",
+      "albumName": " The Suburbs 2: Electric Bugaloo",
+      "yearReleased": "2009",
+      "albumArt": "https://i.discogs.com/wkYwUOYrK-kiGRJF3FGwgN9UCiAIhSdbSxtiSla6o0o/rs:fit/g:sm/q:90/h:589/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIzODAw/MDQtMTU3OTQ3ODg0/Mi01NTAzLmpwZWc.jpeg",
+      "genreId": 2,
+      "id": 50
+    },
+    {
+      "userId": 4,
+      "collectionAlbum": false,
+      "artistName": "Sade",
+      "albumName": " No Ordinary Love",
+      "yearReleased": "1992",
+      "albumArt": "https://i.discogs.com/_zcZB87T2Esc8j3Mtzc2OG2gop_PmXGXzp72Nm2jGYY/rs:fit/g:sm/q:90/h:532/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU3ODgw/Mi0xNDI1ODc1ODk3/LTk4ODYuanBlZw.jpeg",
+      "genreId": 4,
+      "id": 51
+    },
+    {
+      "userId": 4,
+      "collectionAlbum": true,
+      "artistName": "Wyclef Jean",
+      "albumName": " Carnival III:The Fall And Rise Of A Refugee",
+      "yearReleased": "2017",
+      "albumArt": "https://i.discogs.com/7PZ9cwJEwvistMJGihxuCwgfjF5ig78Tlju4aHK6ktg/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwODU4/Mzg0LTE1MDU0ODA2/MDQtOTk4OC5qcGVn.jpeg",
+      "genreId": 4,
+      "id": 52
+    }
+  ],
+  "genres": [
+    {
+      "id": 1,
+      "name": "Rock"
+    },
+    {
+      "id": 2,
+      "name": "Indie Rock"
+    },
+    {
+      "id": 3,
+      "name": "Folk"
+    },
+    {
+      "id": 4,
+      "name": "R'n'B"
+    },
+    {
+      "id": 5,
+      "name": "Rap/Hip-Hop"
+    },
+    {
+      "id": 6,
+      "name": "Electronic"
+    },
+    {
+      "id": 7,
+      "name": "Pop"
+    },
+    {
+      "id": 8,
+      "name": "Jazz"
+    },
+    {
+      "id": 9,
+      "name": "Blues"
     }
   ]
 }
